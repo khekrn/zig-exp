@@ -9,7 +9,7 @@ pub fn main() void {
     print("Array Example\n", .{});
     print("Sum of Slice = {}\n", .{sum(sl)});
     print("Sum of Array = {}\n", .{sum(arr)});
-    print("Array of String = {s}\n", .{arr_string});
+    print("Array of String = {s} with Size = {}\n", .{arr_string, arr_string.len});
 }
 
 fn sum(input: [5]i32) i32{
